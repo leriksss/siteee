@@ -1,0 +1,292 @@
+body {
+    font-family: sans-serif;
+       background-image: linear-gradient(to bottom, #FFD9F4, #C883BD);
+}
+
+h1{
+    color: white;
+    font-size: 18;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149018547.jpg");
+    height: 50px;
+    width: 800px;
+}
+
+header h2{
+    color: white;
+    font-size: 16px;
+}
+
+header{
+    background-image: none;
+}
+
+header img{
+    height: 50px;
+    width: 900px;
+}
+
+header p{
+    text-align: top;
+}
+
+nav{
+   border: 3px solid #D224E1;
+   border-radius: 15px;
+    padding: 5px 50px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+nav a{ 
+  text-decoration: none;
+   border-radius: 15px;
+   color: white;
+   background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+   padding: 5px;
+   margin: 20;
+   text-align: center;
+
+}
+
+
+main p {
+    color: white;
+}
+
+.text{
+    background-image: url("https://aleksa-studio.com/media/cache/72/79/7279ac745b2591d9e221ac414428a5c7.jpg");
+    opacity: 0.6;
+    height: 350px;
+    width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+aside{
+   background-color: #DC67C9;
+   border: 3px solid #DC0BEE;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+a{
+    background-color: #D224E1;
+    border-radius: 10;
+    color: white;
+    text-decoration: none;
+}
+
+main img{
+    opacity: 0.6;
+}
+
+
+.kilce{
+    background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+    color: white;
+    height: 325px;
+    width: 280px;
+    margin-top: 15;
+    display: block;
+    float: left;
+    padding: 10;
+
+}
+
+.kilce:hover{
+    border: 4px dotted #FFD9F4;
+    border-radius: 8px;
+}
+
+.polotna:hover{
+    border: 4px dotted #FFD9F4;
+    border-radius: 8px;
+}
+
+.hamak:hover{
+    border: 4px dotted #FFD9F4;
+    border-radius: 8px;
+}
+
+.kil:hover{
+    border: 4px dotted #FFD9F4;
+    border-radius: 8px;
+}
+
+.kostum:hover{
+    border: 4px dotted #FFD9F4;
+    border-radius: 8px;
+}
+
+
+.post-img:hover{
+    border: 4px dotted #FFD9F4;
+    border-radius: 8px;
+}
+
+.post-text:hover{
+    background-color: #FFD9F4;
+    border-radius: 10px;
+    color: #D224E1;
+}
+
+.post-text{
+    text-align: left;
+    margin: 5;
+    padding: 10;
+}
+
+
+article p{
+    text-align: center;
+}
+
+.polotna{
+    background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+    color: white;
+    height: 325px;
+    width: 280px;
+    margin-top: 15;
+    display: block;
+    float: left;
+    padding: 10;
+}
+
+.hamak{
+    background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+    color: white;
+    height: 325px;
+    width: 280px;
+    margin-top: 15;
+    display: block;
+    float: left;
+    padding: 10;
+}
+
+.kil{
+  background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+    color: white;
+    height: 325px;
+    width: 280px;
+    margin-top: 15;
+    display: block;
+    float: left;
+    padding: 10;  
+}
+
+.kostum{
+    background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+    color: white;
+    height: 325px;
+    width: 280px;
+    margin-top: 15;
+    display: block;
+    float: left;
+    padding: 10;
+}
+
+h2{
+    color:  #D224E1;
+    text-align: center;
+    font-size: 23px;
+}
+
+.center{
+    text-align: center;
+    color: white;
+}
+
+.right{
+    float: left;
+    color: white;
+}
+
+.left{
+    float: right;
+    color: white;
+}
+
+footer{
+    background-image: linear-gradient(to right bottom, #634C69, #D224E1);
+}
+
+
+.tele{
+    height: 40x;
+    width: 60px;
+    border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+.inst{
+    height: 60x;
+    width: 70px;
+    float: right;
+     border: 3px solid white;
+    border-radius: 10px;
+
+}
+
+.vid{
+    border: 3px solid #D224E1;
+    background-color: #FFD9F4;
+    border-radius: 13px;
+    text-align: right;
+}
+
+.lid{
+   border: 3px solid #D224E1;
+    background-color: #FFD9F4;
+    border-radius: 13px;
+    text-align: left;  
+}
+
+.hid{
+     border: 3px solid #D224E1;
+    background-color: #FFD9F4;
+    border-radius: 13px;
+    text-align: left;
+}
+
+
+
+.lid::before{
+    display: inline-block;
+    content: url("https://emojio.ru/images/apple-b/1f60a.png");
+    height:10px; 
+    width:10px;
+
+}
+
+.vid::before{
+  display: inline-block;
+    content: url("https://emojigraph.org/media/apple/winking-face_1f609.png");
+    height:10px; 
+    width:10px;
+    float: right;
+
+}
+
+.hid::before{
+    display: inline-block;
+    content: url("https://emojio.ru/images/apple-b/263a-fe0f.png");
+    height:10px; 
+    width:10px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
